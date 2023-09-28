@@ -1,0 +1,134 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  width: 400px;
+  margin: 0px auto;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 400;
+  background-color: #fff;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+header {
+  display: grid;
+  grid-template-columns: 50px 0.2fr 1fr 0.1fr 0.3fr;
+  grid-template-rows: 1fr 0.3fr;
+  align-items: center;
+  justify-items: center;
+  margin-top: 10px;
+  border-bottom: #ced4da solid 1px;
+  position: relative;
+}
+.header-icon {
+  stroke: #495057;
+  background-color: #ced4da;
+  border-radius: 100%;
+}
+.header-icon1 {
+  stroke: #495057;
+  background-color: #ced4da;
+  border-radius: 100%;
+}
+#request {
+  position: absolute;
+  background: yellow;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  top: 0px;
+  right: 53px;
+  font-weight: 700;
+}
+#icon {
+  width: 18px;
+  stroke: #495057;
+}
+svg {
+  width: 40px;
+  stroke: #495057;
+}
+.name {
+  display: grid;
+  grid-template-columns: 25px 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  color: #868e96;
+}
+.chats {
+  display: grid;
+  grid-template-columns: 55px 1.2fr 0.3fr 0.3fr;
+  grid-template-rows: 1fr 0.1fr;
+  margin-top: 5px;
+  align-items: center;
+  border-bottom: #ced4da solid 1px;
+}
+.chats-2 {
+  display: grid;
+  grid-template-columns: 55px 1.2fr 0.24fr;
+  grid-template-rows: 1fr 0.1fr;
+  margin-top: 5px;
+  align-items: center;
+  border-bottom: #ced4da solid 1px;
+}
+.footer-icons {
+  background-color: aqua;
+  width: 370px;
+  height: 50px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  justify-items: center;
+  border-radius: 30px;
+  background-color: #adb5bd;
+}
+#item {
+  float: right;
+  background-color: aqua;
+}
+img {
+  border-radius: 100%;
+}
+footer {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  background-color: #f1f3f5;
+  width: 400px;
+  height: 100px;
+  border-radius: 20px;
+  position: relative;
+}
+footer::after {
+  content: "";
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  border-radius: 10px;
+  position: absolute;
+  right: 40px;
+  bottom: 57px;
+}
+footer::before {
+  content: "";
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  border-radius: 10px;
+  position: absolute;
+  right: 255px;
+  bottom: 57px;
+}
+#pra {
+  color: rgb(38, 166, 216);
+  font-weight: 600;
+  font-size: 16px;
+}
